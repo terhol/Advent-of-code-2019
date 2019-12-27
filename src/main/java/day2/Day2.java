@@ -59,7 +59,7 @@ public class Day2 {
 
     }
 
-    public Integer[] prepareArray(File file) throws IOException {
+    public static Integer[] prepareArray(File file) throws IOException {
         String[] arrayOfStrings = InputReader.readOneLine(file);
         return TypeConvertor.convertArrayStringToInteger(arrayOfStrings);
     }
